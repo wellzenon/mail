@@ -1,0 +1,88 @@
+textarea {
+    min-height: 400px;
+}
+
+.mailbox-ul{
+    list-style: none;
+    padding-inline-start: .5rem;
+}
+
+.mailbox-li{
+    display: flex;
+    border: .1px solid lightgrey;
+    border-radius: 5px;
+    margin: .5rem;
+    background-color: lightgray;
+}
+
+.mailbox-li:hover{
+    border-color: rgb(160, 160, 160);
+    background-color: rgb(179, 179, 179);
+}
+
+
+.div-title{
+    display: flex;
+}
+
+.div-title > h3{
+    flex-grow: 1;
+}
+
+.div-title > button{
+    margin: 0 .5rem;
+    float: right;
+}
+
+.div-details{
+    font-size: smaller;
+}
+
+.email-body{
+    padding: 1rem 0 0 2rem ;
+}
+
+.div-text{
+    padding: 1rem;
+    cursor: pointer;
+    flex-grow: 100;
+    height: 100%;
+}
+
+.div-button{
+    padding: .2rem;
+    display: grid;
+}
+.div-button > *{
+    margin: 1px;
+    font-size: x-small;
+}
+
+.div-line{
+    display: inline;
+    background-color: transparent;
+    padding: .1rem;
+}
+
+.mailbox-subject{
+    font-size: larger;
+    margin: 1rem;
+}
+.mailbox-sender, .mailbox-recipients{
+    font-style: italic;
+    margin: 1rem;
+}
+.mailbox-timestamp{
+    font-size: smaller;
+    margin: 1rem;
+}
+
+.mailbox-unread{
+    overflow: hidden;
+    font-weight: bolder;
+    background-color: ghostwhite;
+}
+
+.mailbox-unread:hover{
+    background-color: rgb(219, 219, 226);
+}
